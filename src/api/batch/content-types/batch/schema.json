@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "batches",
+  "info": {
+    "singularName": "batch",
+    "pluralName": "batches",
+    "displayName": "batch",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_quantity": {
+      "type": "integer"
+    },
+    "batch_no": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    },
+    "received_on": {
+      "type": "date"
+    }
+  }
+}
